@@ -1,0 +1,11 @@
+.container-filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+}
+
+.select-home-actividad{
+    width: 150px;
+}

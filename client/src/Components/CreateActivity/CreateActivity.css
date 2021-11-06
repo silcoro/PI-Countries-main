@@ -1,0 +1,86 @@
+.formulario-container{
+
+    /* background-color: rgba(165, 231, 255, 0.234); */
+    background-image: url('../../imagenes/ima1.webp');
+    background-size:cover;
+    margin: 0px 0px 0px 0px;
+    padding: 1px 0px 42px 0px;
+
+
+}
+
+
+.formulario{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgba(109, 2, 2, 0.241);
+    border-radius: 5px;
+    margin: 1px 0px 0px 0px;
+    background-color: white;
+    background-image: url('../../imagenes/humo.png');
+    background-size: cover;
+    width: 420px;
+    height: 699px;
+}
+
+.formulario-activity{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formulario-countries{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+/* 
+.formulario-countries > select{
+    padding: 1px 0px 122px 0px;
+    margin: 3px;
+} */
+.cuadro-paises{
+    border: 1px solid rgb(0, 110, 150);
+    width: 78%;
+    height:  220px;
+    margin: 1px 1px 1px 1px;
+    padding: 2px 52px 2px 12px;
+    border-right: 1px solid rgba(172, 13, 13, 0.741);
+    border-bottom: 1px solid green;
+    background-color: rgba(119, 123, 115, 0.227);
+    overflow:scroll; /** permite mi barra de  desplazamiento en mi div*/
+    /* resize: both; */
+}
+.titulos{
+    -webkit-text-stroke: 1px rgba(3, 0, 61, 0.515);
+    color: rgb(1, 110, 206);
+    font-size: 22px;
+    margin: 10px 0px 1px 0px;
+}
+
+.boton{
+    margin: 5px 0px 0px 0px;
+    padding: 3px 15px 3px 15px;
+    font-size: 16px;
+    border: 1px solid royalblue;
+    background-color: rgb(19, 60, 21);
+    color: white;
+    border-radius: 3px;
+}
+
+.select-map{
+    width: 95%;
+    height: 120px;
+}
+
+.dificulty{
+    width: 45%;
+    /* height: 100px; */
+}
+.season{
+    width: 45%;
+}

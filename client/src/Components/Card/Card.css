@@ -1,0 +1,71 @@
+.id_countrie{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1px solid  rgb(17, 76, 185);
+    border-radius: 5px;
+    margin: 12px 25px 1px 5px;
+    padding: 0px 12px 0px 12px;
+    width: 211px;
+    height: 280px;
+    background-color: rgba(255, 255, 255, 0.815);
+    color: rgb(25, 25, 26);
+
+}
+.id_countrie:hover{
+    border:1px solid white;
+    /* background-image: url('../../imagenes/fondo-card.jpg');
+    background-size: cover; */
+    background-color: rgb(72, 68, 68);
+    color: white;
+    /* -webkit-text-stroke: 1px rgb(48, 129, 84); */
+    /* opacity:0.8;
+    filter:alpha(opacity=40); */
+}
+
+#con{
+    padding: 29px 0px 5px 0px;
+    margin: 1px 0px 0px 0px;
+}
+/* #con:hover{
+   
+} */
+#con-h2{
+    padding: 1px 0px 0px 0px;
+    margin: 1px 0px 0px 0px;
+}
+
+
+
+.imagen-card{
+    width: 120px;
+    height: 80px;
+    border: 1px solid white;
+}
+
+.imagen-card:hover{
+
+    border-radius: 5px;
+    -webkit-transform:scale(1.04);transform:scale(1.04);
+}
+
+
+
+.xLink {
+    text-decoration: none; 
+    color: rgb(28, 177, 90);
+    -webkit-text-stroke: 0.4px rgba(0, 0, 0, 0.563);
+    width: 100%;
+    height: 20%;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    /* border: 1px solid black; */
+    padding: 1px 0px 10px 0px;
+    margin: 12px 0px 10px 0px;
+    }
+
+.xLink:hover{
+        color: rgb(226, 199, 123);
+        -webkit-text-stroke: 1px rgba(224, 172, 2, 0.74);
+    }
+

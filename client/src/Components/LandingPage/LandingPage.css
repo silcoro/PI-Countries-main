@@ -1,0 +1,43 @@
+.principal{
+    background-image: url('../../imagenes/mapa_fondo.jpg')  ;
+    background-size: contain;
+    width: 100%;
+    height: 785px;
+}
+
+.button-landingPage{
+    position: absolute;
+    bottom:5em;
+    right:58em;
+    border: none;
+    background-image: url('../../imagenes/brujula.gif');
+    background-size: cover;
+    background-color:transparent;
+    /* border-radius: 5px;
+    color:rgb(11, 109, 36);
+    text-transform:uppercase;     */
+    /* font-family: cursive; */
+    /* color: rgb(30, 45, 255); */
+    width: 190px;
+    height: 190px;
+}
+
+.container-LandingPage{
+    background-color: rgb(206, 130, 58);
+    padding: 2px 0px 7px 0px;
+}
+
+.mapagif{
+    background-image: url('../../imagenes/mapa.gif');
+    background-size: cover;
+    position: absolute;  
+    right:51.5em;
+    bottom: 13em;
+    border: none;
+    background-color:rgba(20, 66, 106, 0.309);
+    text-transform:uppercase;    
+    /* font-family: cursive; */
+    border-radius: 45px;
+    width: 80px;
+    height: 80px;
+}
